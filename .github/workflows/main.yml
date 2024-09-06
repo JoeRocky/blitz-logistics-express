@@ -25,8 +25,8 @@ jobs:
       - name: create .nojekyll
         run: touch .output/public/.nojekyll
 
-      - name: Create CNAME
-        run: echo "rasch-logistics-express.de" > .output/public/CNAME
+      #- name: Create CNAME
+      #  run: echo "rasch-logistics-express.de" > .output/public/CNAME
 
       - name: deploy pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0

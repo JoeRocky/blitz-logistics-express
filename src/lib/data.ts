@@ -1,8 +1,8 @@
-export const domainBase = "https://rasch-logistics-express.de/";
+export const domainBase = "https://joerocky.github.io/blitz-logistics-express/";
 export const domainPostfix = import.meta.env.SERVER_BASE_URL;
 export const domain = domainBase + domainPostfix;
 
-export const companyName = "Rasch Logistics Express"
+export const companyName = "Blitz Logistics Express"
 export const legalCompanyName = "RaschLogistics Express"
 export const phonenumber = "+49 159 01409372";
 export const openingDays = "Montag bis Freitag";
